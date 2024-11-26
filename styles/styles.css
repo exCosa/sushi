@@ -15,27 +15,16 @@ body{
 
 .footer{
     text-align: right;
-    font-size: 24pt;
-}
-.footer address{
-    font-size: 14pt;
 }
 
 h1{
     font-family: Verdana;
     font-size: 32pt;
-    text-align: center;
     margin: 15px 0;
 }
 p{
     font-size: 14pt !important;
-    text-align: justify;
 }
-
-.picture{
-    text-align: center;
-}
-
 
 em{
     font-weight: normal;
@@ -43,5 +32,10 @@ em{
 
 .advertising{
     margin-left: 30pt;
+}
+.promo{
+    font-size: 12pt;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
 }
 
