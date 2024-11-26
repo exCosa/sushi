@@ -39,3 +39,20 @@ em{
     margin-bottom: 5pt;
 }
 
+.bigger{
+    font-size: 16pt;
+}
+
+
+.pre{
+    font-size: 14pt;
+    font-family: monospace;
+}
+
+.doctype_html{
+    color: rgb(0, 0, 250);
+}
+
+.english{
+    color: rgb(215, 80, 2);
+}
