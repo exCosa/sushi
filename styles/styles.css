@@ -1,10 +1,14 @@
 /* укажем шрифт для тега <body> - родителя всех элементов. так удобнее. */
 body{
     font-family: Arial, Helvetica, sans-serif;
+    border: solid;
+    padding: 10px;
 }
 h1{
+    font-family: Verdana;
     font-size: 32pt;
     text-align: center;
+    margin: 15px 0;
 }
 p{
     font-size: 14pt !important;
@@ -18,5 +22,13 @@ p{
 p.greeting{
     font-size: 24pt;
 
+}
+
+address{
+    text-align: right;
+}
+
+em{
+    font-weight: normal;
 }
 
