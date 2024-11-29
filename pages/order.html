@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Заказ столика ::
+        Ebisu: cyши-бap</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Суши-бар <em>&laquo;Ebisu&raquo;</em> </h1>
+    </header>
+    <!--<nav class="nav">
+        <div><a href="../index.html">Главная</a></div>
+        <div><a href="../pages/sashimi.html">сашими</a></div>
+        <div><a href="../pages/roll.html">роллы</a></div>
+        <div><a href="../pages/pricelist.html" target="_blank">прайс-лист</a></div>
+    </nav>-->
+    <main class="main">
+        <h2>Заказ столика</h2>
+        <form action="mailto:order@Ebisu.ru" method="post" enctype="text/plain">
+            <p><label for="name">Как к вам обращаться?</label><br>
+                <input type="text" name="name" id="name" required>
+            </p>
+
+            <p><label for="phone">По какому телефону вам перезвонить?</label><br>
+                <input type="text" name="phone" id="phone" required>
+            </p>
+
+            <p><label for="time">На какое время желаете заказать столик?</label><br>
+                <input type="time" name="time" id="time">
+            </p>
+
+            <p><label for="cnt">На сколько человек заказывается столик?</label><br>
+                <input type="radio" name="cnt" id="cnt" value="1"> 1
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="cnt" value="2"> 2
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="cnt" value="more"> 3 и более
+            </p>
+
+            <p><input type="checkbox" name="children" value="*">
+                Среди клиентов будут дети
+            </p>
+
+            <p><input type="submit"></p>
+        </form>
+
+
+    </main>
+
+    <footer class="footer">
+        <address>Наш адрес:<br>ул. Чертановская, 42</address>
+        <p>&copy; читатели книги &laquo;HTML and CSS&raquo;.<br>Все права защищены.</p>
+    </footer>
+
+</body>
+
+</html>
