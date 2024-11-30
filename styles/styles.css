@@ -102,3 +102,47 @@ table.pricelist thead th{
     margin-bottom: 5px;
 }
 
+nav a:link, nav a:visited{
+    color: darkred;
+    text-decoration: none;
+}
+
+nav a:active, nav a:hover{
+    color: darksalmon;
+    text-decoration: none;
+}
+
+table.catalog tr:first-child td{
+    border-top: none;
+}
+
+table.catalog tr:last-child td{
+    border-bottom: none;
+}
+
+table.catalog h3::after{
+    content: ":";
+}
+
+form{
+    width: 400px;
+    padding: 0px 10px;
+    border: thin dotted darkgray;
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    font: bold 20pt;
+    text-transform: uppercase;
+    width: 250px;
+    border: thin solid black;
+    border-radius: 0px;
+}
+
+input[type=image]{
+    border-style: none;
+}
+
+input:focus{
+    border-color: red;
+}
