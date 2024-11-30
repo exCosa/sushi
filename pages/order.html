@@ -34,19 +34,30 @@
                 <input type="time" name="time" id="time">
             </p>
 
-            <p><label for="cnt">На сколько человек заказывается столик?</label><br>
-                <input type="radio" name="cnt" id="cnt" value="1"> 1
-                &nbsp;&nbsp;&nbsp;
-                <input type="radio" name="cnt" value="2"> 2
-                &nbsp;&nbsp;&nbsp;
-                <input type="radio" name="cnt" value="more"> 3 и более
-            </p>
 
-            <p><input type="checkbox" name="children" value="*">
-                Среди клиентов будут дети
-            </p>
+            <fieldset>
+                <legend>Укажите сведения о вас и вашей компании</legend>
+                <p>
+                    <label for="cnt">На сколько человек заказывается столик?</label><br>
+                    <input type="radio" name="cnt" id="cnt" value="1"> 1
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="cnt" value="2"> 2
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="cnt" value="more"> 3 и более
+                </p>
+                <p>
+                    <input type="checkbox" name="children" value="*">
+                    Среди клиентов будут дети
+                </p>
+            </fieldset>
 
-            <p><input type="submit"></p>
+
+
+
+            <button type="submit">
+                Отправить данные<br>
+                <img src="../images/order_button.jpg" alt="" width="80">
+            </button>
         </form>
 
 
